@@ -1,0 +1,8 @@
+Moving and Renaming Files and Directories
+- labex:project/ $ mv file1.txt newname.txt
+labex:project/ $ mv newname.txt testdir/
+labex:project/ $ mv testdir_copy new_testdir
+labex:project/ $ mv testdir/newname.txt ./original_file1.txt
+labex:project/ $ ls
+file1.copy.txt  file2.txt    original_file1.txt
+file1_copy.txt  new_testdir  testdir
