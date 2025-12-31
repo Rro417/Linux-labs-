@@ -1,8 +1,85 @@
-Moving and Renaming Files and Directories
-- labex:project/ $ mv file1.txt newname.txt
-labex:project/ $ mv newname.txt testdir/
-labex:project/ $ mv testdir_copy new_testdir
-labex:project/ $ mv testdir/newname.txt ./original_file1.txt
+Learned how to used basic Lennix commends, how to create file, how to move file, how to copy file, ect..
+Commands
+- Touch file.txt cretaes a empty files. (terminal@terminal-temple ~ $ touch tomorrow is going be a greath day. txt
+terminal@terminal-temple)
+- pwd print current work dirrections. 
+- ls list files and dirrections. 
+- cd is change directory.
+- mkdir directory_name — Creates a new directory ( mkdir temp_dir)
+
+ Removing Files and Directories
+ -rm file.txt — Removes a file (terminal@terminal-temple ~ $ rm tomorrow is going be a greath day. txt
+- rm -i file.txt — Prompts for confirmation before deleting)
+- rmdir directory_name — Removes an empty directory
+- rm -r directory_name — Removes a directory and all its contents recursively
+- rm -rf directory_name — Force removes directory and contents without confirmation 
+
+Listing Files Recursively
+- ls -R directory_name — Lists files and subdirectories recursively
+- The -r option means recursive
+- The -f option forces deletion and skips confirmation
+- rm -r should be used carefully
+
+Create files, move them, buy using Lennix commends.
+-  labex:project/ $ touch file1.txt
+labex:project/ $ echo "Hello, Linux" > file2.txt
+labex:project/ $ echo "Hidden, file" > .hiddenfile
+labex:project/ $ mkdir testdir
 labex:project/ $ ls
-file1.copy.txt  file2.txt    original_file1.txt
-file1_copy.txt  new_testdir  testdir
+file1.txt  file2.txt  testdir
+labex:project/ $ ls -l
+total 4
+-rw-rw-r-- 1 labex labex  0 Dec 23 22:02 file1.txt
+-rw-rw-r-- 1 labex labex 13 Dec 23 22:02 file2.txt
+drwxrwxr-x 2 labex labex  6 Dec 23 22:03 testdir
+labex:project/ $ ls -a
+.  ..  file1.txt  file2.txt  .hiddenfile  testdir
+labex:project/ $ ls -1a
+file1.txt
+file2.txt
+.hiddenfile
+testdir
+labex:project/ $ ls -1 testdir
+labex:project/ $ ls -l
+total 4
+-rw-rw-r-- 1 labex labex  0 Dec 23 22:02 file1.txt
+-rw-rw-r-- 1 labex labex 13 Dec 23 22:02 file2.txt
+drwxrwxr-x 2 labex labex  6 Dec 23 22:03 testdir
+labex:project/ $ ls -a
+.  ..  file1.txt  file2.txt  .hiddenfile  testdir
+labex:project/ $ ls -1a
+.
+..
+file1.txt
+file2.txt
+.hiddenfile
+testdir
+labex:project/ $ ls -l testdir
+total 0
+labex:project/ $
+
+Copy files and directions
+- labex:project/ $ ls -l testdir
+total 0
+labex:project/ $ cp file1.txt file1.copy.txt
+labex:project/ $ ls
+file1.copy.txt  file1.txt  file2.txt  testdir
+labex:project/ $ cp file2.txt testdir/
+labex:project/ $ cp -r testdir testdir_copy
+labex:project/ $ ls
+file1.copy.txt  file1.txt  file2.txt  testdir  testdir_copy
+labex:project/ $ ls cp file1.txt file_copy.txt
+ls: cannot access 'cp': No such file or directory
+ls: cannot access 'file_copy.txt': No such file or directory
+file1.txt
+labex:project/ $ cp file1.txt file1_copy.txt
+      
+
+
+
+
+
+
+
+
+ 
