@@ -6,6 +6,11 @@ terminal@terminal-temple)
 - ls list files and dirrections. 
 - cd is change directory.
 - mkdir directory_name — Creates a new directory ( mkdir temp_dir)
+- cat myfile.txt is shows content of file/ what inside.
+- cat -n: Is basiclly explain each line with number.
+- head -n1: Show only firs line of file.
+- head -c1: Only shows one number, or one letter of the word. 
+- 
 
  Removing Files and Directories
  -rm file.txt — Removes a file (terminal@terminal-temple ~ $ rm tomorrow is going be a greath day. txt
@@ -73,6 +78,17 @@ ls: cannot access 'cp': No such file or directory
 ls: cannot access 'file_copy.txt': No such file or directory
 file1.txt
 labex:project/ $ cp file1.txt file1_copy.txt
+ Rename Files and Directories: using comands like cp, -r. 
+labex:project/ $ cp ~/.zshrc ~/Desktop/zshrc-copy 
+labex:project/ $ cp -r ~/Code ~/Desktop
+labex:project/ $ ls -1 ~/Desktop 
+Code
+code.desktop
+gedit.desktop
+gvim.desktop
+xfce4-terminal.desktop
+zshrc-copy
+ 
       
 
 
