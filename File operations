@@ -4,12 +4,16 @@ Commands
 terminal@terminal-temple)
 - pwd print current work dirrections. 
 - ls list files and dirrections. 
-- cd is change directory.
+- cd ~ is change directory.
 - mkdir directory_name — Creates a new directory ( mkdir temp_dir)
 - cat myfile.txt is shows content of file/ what inside.
 - cat -n: Is basiclly explain each line with number.
 - head -n1: Show only firs line of file.
 - head -c1: Only shows one number, or one letter of the word. 
+- id is shows your user identity and permission groups in Linux.
+- root is the Linux admin user that can read, change, or delete anything on the system.
+- sudo apt update refreshes the package list so your system knows about the latest software versions.
+- sudo apt install htop downloads and installs htop, an interactive system monitor that shows CPU, memory, and running processes in real time.
 - 
 
  Removing Files and Directories
