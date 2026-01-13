@@ -14,6 +14,12 @@ terminal@terminal-temple)
 - root is the Linux admin user that can read, change, or delete anything on the system.
 - sudo apt update refreshes the package list so your system knows about the latest software versions.
 - sudo apt install htop downloads and installs htop, an interactive system monitor that shows CPU, memory, and running processes in real time.
+- The diff command in Linux (and other Unix-like systems) is used to compare two files line by line and show the differences between them. It's very useful when you want to see what has changed between two versions of a file.
+- chown is command that allows to modify both the user and group ownership of file, is determines who has control of ownership. 
+- ls -1 is provides detailed information about file, including its permissions, owner, and group.
+- root is the administrator account on Linux systeams, and its has special priviliges.
+- sudo chown is chnage the ownership.
+- chmod stands for change mode, it allows you to modify these permissions. 
 - 
 
  Removing Files and Directories
